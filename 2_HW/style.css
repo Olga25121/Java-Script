@@ -1,0 +1,60 @@
+body{
+    width: 600px;
+    background-color: rgb(159, 205, 205);
+    margin-left:350px;
+    padding: 0 20px 20px 20px;
+    border: 50px rgb(247, 60, 13);
+    
+}
+
+
+h1 {
+    
+    color: rgb(245, 41, 27);
+    font-family: 'Teddy Bear', sans-serif ;
+    margin-left:30px;
+    padding: 20px 0;
+    text-shadow: 2px 2px 1px white;
+}
+
+h2 {
+    color: rgb(248, 46, 225);
+    font-family: 'Teddy Bear', sans-serif ;
+}
+
+a {
+    color: rgb(21, 10, 238);
+}
+
+img {
+    width: 600px;
+    margin-left:10px;
+}
+
+@font-face {
+	font-family: 'Teddy Bear';
+	src: url('fonts/teddy_bear.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/teddy_bear.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/teddy_bear.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/teddy_bear.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/teddy_bear.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/teddy_bear.svg#teddy_bear') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.big_size {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+a:hover {
+    color: rgb(239, 18, 47);
+}
+
+.wrapper {
+    width: 800px;
+    margin: auto;
+}
+
