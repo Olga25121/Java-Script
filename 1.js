@@ -11,7 +11,7 @@
 const tempCel = Number.parseFloat(prompt('Введите температуру в градусах Цельсия: '));
 
 function convert(tempFar) {
-    return ((9 / 5) * tempFar + 32);
+    return (9 / 5) * tempFar + 32;
 }
 if (Number.isNaN(tempCel)) {
     alert("Введите корректное число");
